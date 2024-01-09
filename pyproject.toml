@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "web-bot"
+version = "0.1.0"
+description = "script for a bot that suffs the net"
+authors = ["Stephen Angura <stivangura@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selenium = "^4.16.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
